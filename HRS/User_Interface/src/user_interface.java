@@ -1,5 +1,10 @@
 import java.util.*;
 import java.io.*;
+/*
+ import java.io.File;
+ import java.io.IOException;
+ import java.util.Scanner;
+ */
 
 public class user_interface{
     public static void main(String args[]) throws IOException{
@@ -48,6 +53,47 @@ public class user_interface{
             System.out.print("Error: Sorry we don't have so many rooms available. Please try later.");
             System.exit(0);
         }
+        
+        /*
+        //Maintenance part
+          //Confirm purpose first
+          int purpose = scan.nextInt();
+          System.out.print("Welcome!");
+          System.out.print("Press 1 to create new order.");
+          System.out.print("Press 2 to confirm the order.");
+          System.out.print("Press 3 to cancel the order.");
+         
+         if(purpose == 2) {
+         System.out.print("Input your last name:");
+         user.last_name = scan.next();
+         System.out.print("Input your phone number:");
+         user.phone_num = scan.next();
+         // If Last name and phone number is not matched
+         System.out.print("Information not match. Please try again.");
+         // If matched, print out order details
+         
+         }
+         if(purpose == 3) {
+         System.out.print("Input your last name:");
+         user.last_name = scan.next();
+         System.out.print("Input your phone number:");
+         user.phone_num = scan.next();
+         // If Last name and phone number is not matched
+         System.out.print("Information not match. Please try again.");
+         //If matched, search for order and print out details
+         
+         System.out.print("If you are sure to cancel the order, please press 1.");
+         int flag_oc = scan.nextInt();
+         if(flag_oc == 1){ //delete the order
+         
+         }
+         
+         }
+        */
+        
+        /*
+         if(purpose == 1){
+         */
         System.out.print("Input your last name:");
         user.last_name = scan.next();
         System.out.print("Input your first name:");
@@ -86,5 +132,8 @@ public class user_interface{
             System.out.print("Sorry please run the program from the beginning again.");
             System.exit(0);
         }
+    /*
+    }
+     */
     }
 }
